@@ -1,0 +1,28 @@
+{
+    "name": "yark/yark-actions",
+    "description": "Provides a build in generator for actions",
+    "type": "library",
+    "require": {
+        "illuminate/support": "^7.10"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alex Cutts",
+            "email": "alex@yark.co.uk"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Yark\\Actions\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Yark\\Actions\\ActionsServiceProvider"
+            ]
+        }
+    }
+}
