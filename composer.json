@@ -1,6 +1,6 @@
 {
     "name": "yark/yark-actions",
-    "description": "Provides a build in generator for actions",
+    "description": "A simple Artisan command to generate action classes",
     "type": "library",
     "require": {
         "illuminate/support": "^7.10"
